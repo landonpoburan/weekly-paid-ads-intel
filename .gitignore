@@ -1,0 +1,11 @@
+# Local settings and research outputs may contain private business context.
+config.local.json
+reports/
+.market-intel.json
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.pyc
+.DS_Store

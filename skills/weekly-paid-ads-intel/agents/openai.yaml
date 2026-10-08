@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weekly Paid Ads Intel"
+  short_description: "Meta ad news, market signals, and weekly watch items"
+  default_prompt: "Use $weekly-paid-ads-intel to research the past week and explain the implications for advertisers."

@@ -1,0 +1,64 @@
+{
+  "lookback_days": 7,
+  "timezone": "UTC",
+  "market": "US",
+  "exposure_context": [],
+  "archive": {
+    "enabled": true,
+    "directory": "reports/market-intel"
+  },
+  "sources": {
+    "platform_status": [
+      {
+        "name": "Meta",
+        "url": "https://metastatus.com/"
+      }
+    ],
+    "platform_news": [
+      {
+        "name": "Meta Business News",
+        "url": "https://www.facebook.com/business/news"
+      },
+      {
+        "name": "Meta Developer Changelog",
+        "url": "https://developers.facebook.com/docs/marketing-api/changelog/"
+      },
+      {
+        "name": "Meta Advertising Standards",
+        "url": "https://transparency.meta.com/policies/ad-standards/"
+      }
+    ],
+    "ad_chatter_subreddits": [
+      "PPC",
+      "FacebookAds",
+      "marketing"
+    ],
+    "public_x_search": true,
+    "macro_signals": [
+      {
+        "name": "Consumer sentiment",
+        "source": "https://www.sca.isr.umich.edu/"
+      },
+      {
+        "name": "Consumer confidence",
+        "source": "https://www.conference-board.org/topics/consumer-confidence"
+      },
+      {
+        "name": "CPI / inflation",
+        "source": "https://www.bls.gov/cpi/"
+      },
+      {
+        "name": "Employment / unemployment",
+        "source": "https://www.bls.gov/news.release/empsit.toc.htm"
+      },
+      {
+        "name": "Consumer spending / PCE",
+        "source": "https://www.bea.gov/data/consumer-spending/main"
+      },
+      {
+        "name": "Federal Reserve decisions and calendar",
+        "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      }
+    ]
+  }
+}
